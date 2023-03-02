@@ -1,11 +1,7 @@
 .imagen{
-    /* make it smaller */
-    width: 250px;
+    width: 600px;
 }
 
-.imagen1{
-    margin-left: 20%;
-}
-.imagen2{
-    margin-right: 20%;
+.imagent{
+    width: 250px;
 }

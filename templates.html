@@ -1,34 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Import bootstrap 5.0-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="template/bootstrap.css">
+    <script src="template/bootstrap.js"></script>
+    <!-- ----------- -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Templates</title>
+
+    <title>Proyecto</title>
 </head>
+<body>
+    <div class="container-fluid px-0">
+        <div class="row col-12 mx-0" style="height:100vh">
+            <div class="px-0 col-12 d-flex">
+                <nav class="col-12 col-lg-1 col-xl-1 col-xxl-1 py-2 py-lg-0 navbar navbar-expand-lg navbar-light fixed-bottom sticky-lg-top bg-success">
+                    <div class="px-0 container-fluid justify-content-center flex-column justify-content-lg-start">
+                        <a class="navbar-brand d-none d-lg-block py-4 text-white titulo" href="#">Campers <br> Skil's</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse flex-grow-0 flex-lg-grow-1" id="navbarSupportedContent">
+                            <ul class="my-3 navbar-nav mb-2 mb-lg-0 text-center flex-column">
+                                <li class="nav-item py-2 px-3 my-1 py-lg-2 px-lg-4 glow-on-hover">
+                                    <a class="nav-link active text-white glow-on-hover" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item py-2 px-3 my-1 py-lg-2 px-lg-4 glow-on-hover">
+                                    <a class="nav-link text-white btn glow-on-hover" href="#">My Skill's</a>
+                                </li>
+                                <li class="nav-item py-2 px-3 my-1 py-lg-2 px-lg-4 glow-on-hover">
+                                    <a class="nav-link text-white glow-on-hover" href="#">About</a>
+                                </li>
+                                <li class="nav-item py-2 px-3 my-1 py-lg-2 px-lg-4 glow-on-hover">
+                                    <a class="nav-link text-white glow-on-hover" href="#">Templates</a>
+                                </li>
+                                <li class="nav-item py-2 px-3 my-1 py-lg-2 px-lg-4 glow-on-hover">
+                                    <a class="nav-link text-white glow-on-hover" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="col-12 col-lg-11 col-xl-11 col-xxl-11 bg-dark px-0">
+                    <div class="row-0">
+                        <div class="">
+                            <div class="px-0" style="width: 100%;">
+                                
+                                <h1 class="text-center text-white">Templates</h1> <br>
 
-<body class="bg-dark">
-
-    <h1 class="text-center">Templates</h1>
-
-    <div class="container imagenes">
-        <img src="https://i.scdn.co/image/ab67616d0000b273640ce3531798c73d5a1da037" class="float-start img-thumbnail imagen" alt="">
-        <img src="https://i.scdn.co/image/ab67616d0000b273640ce3531798c73d5a1da037" class="float-end img-thumbnail imagen" alt="">
-        <img src="https://i.scdn.co/image/ab67616d0000b273640ce3531798c73d5a1da037" class="img-thumbnail imagen mx-auto d-block" alt=""> <br>
-        <img src="https://i.scdn.co/image/ab67616d0000b273640ce3531798c73d5a1da037" class="img-thumbnail imagen imagen2 float-end" alt="">
-        <img src="https://i.scdn.co/image/ab67616d0000b273640ce3531798c73d5a1da037" class="img-thumbnail imagen imagen1 float-start" alt="">
-    
-    
+                                <div class="container imagenes text-white">
+                                    <div class="container">
+                                        <div class="row align-items-start text-center">
+                                            <div class="col">
+                                                <img src="img/global.jpg"
+                                                    class="img-thumbnail imagent"> <br>
+                                                <p class="p-3">Global Free CSS Template</p>
+                                                <a type="button" class="btn btn-outline-success" href="template/template1.html">More info</a>
+                                            </div>
+                                            <div class="col">
+                                                <img src="img/steller.jpg"
+                                                    class="img-thumbnail imagent"> <br>
+                                                <p class="p-3">Steller Free CSS Template</p>
+                                                <a type="button" class="btn btn-outline-success" href="template/template2.html">More info</a>
+                                            </div>
+                                            <div class="col">
+                                                <img src="img/meetup.jpg"
+                                                    class="img-thumbnail imagent"> <br>
+                                                <p class="p-1">Meetup Free CSS Template</p>
+                                                <a type="button" class="btn btn-outline-success" href="template/template3.html">More info</a>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="row align-items-center mt-5 mb-5 text-center">
+                                            <div class="col">
+                                                <img src="img/meyawo.jpg"
+                                                    class="img-thumbnail imagent"> <br>
+                                                <p class="p-1">Meyawo Free CSS Template</p>
+                                                <a type="button" class="btn btn-outline-success" href="template/template4.html">More info</a>
+                                            </div>
+                                            <div class="col">
+                                                <img src="img/john-doe.jpg"
+                                                    class="img-thumbnail imagent"> <br>
+                                                <p class="p-1">John Doe Free CSS Template</p>
+                                                <a type="button" class="btn btn-outline-success" href="template/template5.html">More info</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
 </body>
-
 </html>
